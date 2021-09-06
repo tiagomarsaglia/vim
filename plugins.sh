@@ -25,10 +25,6 @@ git submodule add https://github.com/vim-airline/vim-airline-themes.git
 # buscador de arquivos ctrl+p
 git submodule add https://github.com/ctrlpvim/ctrlp.vim.git
 
-# start vim and configure the plugins as desired :)
-cd -
-vim ~/.vimrc
-
 # when need to update,
 # it is just a matter of updating submodules
 git submodule update --remote --merge
