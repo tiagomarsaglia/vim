@@ -1,22 +1,26 @@
+# Configurações para iniciar o vim
 
+#### (1) - Para iniciar crie um .vimrc no seu diretorio de usuario e cole as configurações abaixo
 
-" para iniciar crie um .vimrc no seu diretorio de usuario e cole as configurações abaixo
-
-" ////// init config
+```
 set runtimepath+=~/.vim
 source ~/.vim/config.vim
-" /////
+```
 
+#### (2) - Renomeie a pasta vim para .vim e dentro dela execute o arquivo plugins.sh
 
-Para usar o comando CTRL+s em seu terminal é necessario habilitar o mesmo na sua configuração de terminal default
+#### (3) - Para usar o comando CTRL+s em seu terminal é necessario habilitar o mesmo na sua configuração de terminal default
 
-zsh (se você usar)
-# enable control-s and control-q
+- #### zsh (se você usar) adicione em seu .zshrc
+
+```
 stty start undef
 stty stop undef
 setopt noflowcontrol
+```
 
-
-# ~/.bash_profile or ~/.bashrc
-# enable control-s and control-q
+- #### (se você usar o bash) ~/.bash_profile or ~/.bashrc
+```
 stty -ixon
+```
+
