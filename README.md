@@ -31,3 +31,9 @@ stty -ixon
 
 #### (4) - Criei um arquivo de help caso precise de ajuda com os comandos básicos
 - pressione 2 * <Ctrl+h>
+
+
+#### (5) estou usando o horizon como themecolor
+
+- adicione seu themecolor na pasta colors
+- no arquivo plugins.vim altere o colorscheme para o seu theme

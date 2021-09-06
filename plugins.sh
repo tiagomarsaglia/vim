@@ -6,7 +6,7 @@ git init
 # package directories
 
 # NERDTree and plugins
-git submodule add https://github.com/scrooloose/nerdtree plugins/start/nerdtree
+git submodule add https://github.com/scrooloose/nerdtree
 # Icones de arquivos e pastas customizados 
 git submodule add https://github.com/ryanoasis/vim-devicons.git
 # Font de cor para os icones de pastas
