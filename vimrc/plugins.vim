@@ -7,11 +7,11 @@ autocmd VimEnter * NERDTree
 
 " if you don't set this option, this color might not correct
 set termguicolors
-colorscheme horizon
+colorscheme molokai
 
 " lightline
 let g:lightline = {}
-let g:lightline.colorscheme = 'horizon'
+let g:lightline.colorscheme = 'molokai'
 
 
 " Vim-Airline-Theme configurations
