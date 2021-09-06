@@ -1,0 +1,14 @@
+Meus comandos usados no VIM
+
+- <CTRL+h> * 2 visualizar esse arquivo de ajuda
+- <CTRL+x> fecha arquivo
+
+# NERDTree
+- <CTRL+w> navegar entre as janelas
+- <CTRL+n> abre o NERDTree
+- <SHIFT+c> * 2 adentra em uma estrutura de pasta
+- <CTRL+SHIFT+seta Up ou Down> navegar entre as tabs
+
+# AirLine 
+- <CTRL+a ou d> navegar entre arquivos abertos
+- <CTRL+q> remove arquivo da aba recentes 
