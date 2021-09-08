@@ -18,3 +18,7 @@ let g:lightline.colorscheme = 'horizon'
 let g:airline#extensions#tabline#formatter = 'default'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='luna'
+
+" FZF configurations
+" If installed using git init fzf
+set rtp+=~/.fzf
