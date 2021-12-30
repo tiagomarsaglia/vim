@@ -9,8 +9,9 @@ nnoremap <silent><c-s> :<c-u>update<CR>
 vnoremap <silent><c-s> <c-c>:update<CR>gv
 inoremap <silent><c-s> <c-o>:update<CR>
 
-nnoremap  <C-a> <ESC>:bp<CR>
-nnoremap <C-d> <ESC>:bn<CR>
+nnoremap  <C-j> <ESC>:bp<CR>
+nnoremap  <C-k> <ESC>:bn<CR>
+nnoremap <C-i> <ESC>:Autoformat<CR>
 nnoremap <C-q> <ESC>:bwipe<CR> <ESC>:bp<CR> <ESC>:NERDTree<CR>
 
 nnoremap <C-p> <ESC>:Files <CR>

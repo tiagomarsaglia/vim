@@ -19,8 +19,6 @@ git init
 git submodule add https://github.com/scrooloose/nerdtree
 # Icones de arquivos e pastas customizados 
 git submodule add https://github.com/ryanoasis/vim-devicons.git
-# Font de cor para os icones de pastas
-git submodule add https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
 
 # Vim Horizon theme colors
 git submodule add https://github.com/ntk148v/vim-horizon.git
@@ -44,7 +42,8 @@ git submodule add https://github.com/leafgarland/typescript-vim
 git submodule add https://github.com/posva/vim-vue
 # Extensão javascript  
 git submodule add https://github.com/pangloss/vim-javascript.git
-
+#extensão para formatação de codigo
+git submodule add https://github.com/vim-autoformat/vim-autoformat.git
 
 # when need to update,
 # it is just a matter of updating submodules
